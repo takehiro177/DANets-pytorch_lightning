@@ -1,0 +1,19 @@
+# @package _global_
+tags:
+  - danet_baseline
+model: DANETs
+dropout_num: 0
+dropout_p: 0.00
+num_classes: 1
+batch_size: 2048
+lr: 3.2e-3
+wd: 1.3e-4
+max_epochs: 20
+patience: 5
+optimizer: Adam
+scheduler: OneCycleLR
+loss: "YOUR_LOSS"
+seed: 2024
+n_folds: 5
+num_workers: 20
+feats: ["YOUR_FEATS"]
