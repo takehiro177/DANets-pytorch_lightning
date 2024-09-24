@@ -174,7 +174,7 @@ class CustomHead(nn.Module):
         x = self.fc(x)  # Pass through the custom linear layer
         return x
 
-class ISIC2024KANNet(torch.nn.Module):
+class CustomDANETs(torch.nn.Module):
     def __init__(self, meta_feats):
         super().__init__()
 
